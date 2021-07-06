@@ -8,9 +8,11 @@ This repo contains a wrapper script to be used with [MultiMC](https://multimc.or
 
 ### Pre-requisites
 
-First, install the [Zulu Java 11 JDK for macOS ARM64](https://cdn.azul.com/zulu/bin/zulu11.43.1015-ca-jdk11.0.9.1-macos_aarch64.dmg).
+First, install the [Zulu Java 16 JDK for macOS ARM64](https://cdn.azul.com/zulu/bin/zulu16.30.19-ca-jdk16.0.1-macosx_aarch64.dmg).
 
 You'll also need a standard install of MultiMC.
+
+NOTE: This experimental branch only works with Minecraft 1.17 or newer.
 
 ### Clone this repo
 
@@ -28,7 +30,10 @@ mkdir -p ~/Minecraft
 cd ~/Minecraft
 
 # clone this repo
-git clone https://github.com/yusefnapora/m1-multimc-hack.git
+git clone https://github.com/kode54/m1-multimc-hack.git
+
+# check out this branch
+git checkout lwjgl3-test
 ```
 
 ### Configure MultiMC
